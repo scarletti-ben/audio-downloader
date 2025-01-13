@@ -10,7 +10,7 @@ import sys
 # < Settings
 # < ========================================================
 
-ffmpeg_path: str = "ffmpeg/bin/ffmpeg.exe"
+ffmpeg_directory: str = "ffmpeg/bin"
 output_format: str = './downloads/%(title)s.%(ext)s'
 
 # < ========================================================
@@ -43,7 +43,7 @@ if __name__ == "__main__":
         '--verbose',                            # < Show detailed output / logging
         '--extract-audio',                      # < Extract audio stream only
         '--restrict-filenames',                 # < Ensure only safe characters in filenames
-        '--ffmpeg-location', ffmpeg_path,       # < Provide the path to ffmpeg for transcoding and for --extract-audio flag
+        '--ffmpeg-location', ffmpeg_directory,  # < Provide ffmpeg directory for transcoding and for --extract-audio flag
         url                                     # < Link to the video to be downloaded
     ]
 
