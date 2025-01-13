@@ -41,10 +41,10 @@ With the virtual environment active, run `python main.py`, you can pass one or t
 
 Example commands `python main.py https://www.website.com/video` or `python main.py https://www.website.com/video mp3`
 
-### Running the Application via `mydownloader.bat`
-By default you can run the `batch` (`.bat`) file with arguments from the repository via `C:\...\audio-downloader> mydownloader` in much the same way as [`main.py`](#running-the-application-via-mainpy)
+### Running the Application via `audio-downloader.bat`
+By default you can run the `batch` (`.bat`) file with arguments from the repository via `C:\...\audio-downloader> audio-downloader` in much the same way as [`main.py`](#running-the-application-via-mainpy)
 
-In order to extend this functionality so that you can run it from anywhere via `C:\> mydownloader`, and not just from this repository, you can add the repository to your user `PATH` in `System Environment Variables`
+In order to extend this functionality so that you can run it from anywhere via `C:\> audio-downloader`, and not just from this repository, you can add the repository to your user `PATH` in `System Environment Variables`
 
 #### Adding Repository to User Path
 - Navigate to `System Properties`
