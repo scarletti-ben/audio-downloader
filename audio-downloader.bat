@@ -7,4 +7,4 @@ CD /d "%~dp0"
 CALL venv\Scripts\activate & venv\Scripts\python.exe main.py %*
 
 @REM Open a Windows explorer window in the downloads directory
-START downloads
+IF NOT ERRORLEVEL 1 START downloads
