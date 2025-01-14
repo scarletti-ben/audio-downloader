@@ -3,6 +3,8 @@ This is a personal project primarily created to learn the structure for passing 
 
 The result is a an application to download an audio stream from a given URL. And transcode (convert) it to another audio format, if required.
 
+[`yt-dlp`](https://github.com/yt-dlp/yt-dlp) is a software for downloading media, and is a fork of [`youtube-dl`](https://github.com/ytdl-org/youtube-dl)
+
 # External Tools and Packages
 `audio-downloader` uses `yt-dlp` for 
 - Analysing the different streams
